@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>ACHTERGROND AFBEELDING</colorbgName>
+<sombraName>SCHADUW AAN DE RAND VAN DE ACHTERGROND</sombraName>
+<marcoName>TYPE VIDEOFRAME</marcoName>
+<sizevidName>VIDEO FRAME GROOTTE</sizevidName>
+<glassName>GLAS EFFECT OP VIDEO</glassName>
+<scanlineName>SCANLINE OVER VIDEO</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIMATIE IN ACHTERGRONDBEELD</subset.animacion-imagen-de-fondo>
+<zIndexName>ZINDEX VAN DE KARAKTERS</zIndexName>
+<size-personaje1Name>GROOTTE VAN KARAKTER 1</size-personaje1Name>
+<size-personaje2Name>GROOTTE VAN KARAKTER 2</size-personaje2Name>
+<size-personaje3Name>KARAKTER MAAT 3</size-personaje3Name>
+<opciones-de-videoName>VIDEO ACHTERGROND OPTIES (alleen systeem)</opciones-de-videoName>
+<mostrar-boxarteName>TOON HOESJES</mostrar-boxarteName>
+<mostrar-consolaName>TOON CONSOLE</mostrar-consolaName>
+<animacion-de-personajes-1Name>KARAKTER 1 ANIMATIE</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>KARAKTER 2 ANIMATIE</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>KARAKTER 3 ANIMATIE</animacion-de-personajes-3Name>
+<trancicionName>VIDEO TRANCITIE</trancicionName>
+
+<systemViewName>AANZICHT IN SYSTEEM VERANDEREN</systemViewName>
+<banderasName>TOON DE TAAL VAN DE VLAG</banderasName>
+<mostra-personajesName>TOON KARAKTER</mostra-personajesName>
+<size-personajesName>KARAKTER POSITIE:</size-personajesName>
+<mostrar-boxartName>SHOW BOXART alleen aanwezig in systeem</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>VAN TOEPASSING OP HET KARAKTER IN SYSTEEM</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>VAN TOEPASSING OP HET KARAKTER IN DE GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>WIJZIG LOGO'S IN CARROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>WIJZIG LOGO'S IN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVEREN ANIMATIE IN ACTIEF CARROUSEL-LOGO</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ACHTERGROND AFBEELDINGSOPTIES</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>BRENG GELUID AAN OP CARROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>GELUID TOEPASSEN IN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEEM VIDEO-EFFECT</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFECT OP DE VIDEO IN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>WIJZIG MENU STIJL</menuName>
+<storylogocarruselsistemaName>ACTIVEREN BEWEGING IN ACTIEF CARROUSEL-LOGO</storylogocarruselsistemaName>
+<infoName>ALLEEN DE TAAL WIJZIGEN IN (Klassieke weergave)</infoName>
+<MarqueeStyleName>LOGO'S IN AFSPEELLIJST WIJZIGEN (Selectiekader)</MarqueeStyleName>
+<systemViewExInfos>TOON (InfoEx) IN SYSTEEM</systemViewExInfos> 
+<subset.Logosoncarousel>WIJZIG CARROUSEL-LOGO'S IN SYSTEEM</subset.Logosoncarousel>
+<subset.shader>SCHADUWERS - (BOVEN ALLE)</subset.shader>
+<subset.colorset>SYSTEEMKLEUR WIJZIGEN (menu's)</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate">
+<animation property="scale" to="1.2" duration="1000" mode="easeOut" autoreverse="true" repeat="forever"/>
+</storyboard>
+</image>
+
+<sound name="bgsound">
+<path>./art/sistemas/musica/${system.theme}.ogg</path>
+<path>./art/sistemas/musica/${system.theme}.wav</path>
+<path>./art/sistemas/musica/${system.theme}.mp3</path>
+</sound>
+		
+<carousel name="systemcarousel">
+<defaultTransition>instant</defaultTransition>
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.364 0</pos>
+<size>1 1</size>
+<logoScale>1.05</logoScale>
+<logoSize>0.130 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>       
+</carousel>
+
+<text name="systemInfo">
+<glowColor>00000000</glowColor>
+<pos>-0.1532 0.140</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>ffffff</color>
+<rotation>0</rotation> 
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+ <linearSmooth>true</linearSmooth>
+<fontSize>0.022</fontSize>
+<zIndex>199</zIndex>
+</text> 
+
+<image name="sombra" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/sombra con carrusel.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>50</zIndex>
+</image>  
+
+<image name="sombradoble" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>52</zIndex>
+</image>  
+
+<image name="background3" extra="true">
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>05</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" begin="0" duration="350" mode="linear"/>
+</storyboard>
+</image> 
+
+<image name="background" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/fondo carrusel N&G.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>10</zIndex>
+</image>  
+
+<image name="backgroundsystem" extra="true">
+<tile>false</tile>
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+<path>./art/sistemas/wall/default.png</path>
+<path>./art/sistemas/wall/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>22</zIndex>
+<storyboard repeat="forever">
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" begin="0" duration="350" mode="linear"/>
+</storyboard>
+</image> 
+
+<image name="scanlinevideo" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+<linearSmooth>true</linearSmooth>
+<zIndex>29</zIndex>
+</image> 
+
+<image name="glassvideo" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+<path>./art/sistemas/fondos/glas.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>29</zIndex>
+</image>   
+
+<video name="backgroundvideo" extra="true">
+<visible>true</visible>
+<rotation>0</rotation>  
+<roundCorners>0</roundCorners>   
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+<delay>0</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+ <linearSmooth>true</linearSmooth>
+<color>FFFFFF</color>
+<zIndex>28</zIndex>
+</video>
+
+<image name="marcovideo" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/marco wide N&G.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>30</zIndex>
+</image>  
+
+<image name="pointer,pointerl" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="consolasys" extra="true">
+<visible>true</visible>
+<path>./art/sistemas/consoles/default.png</path>
+<path>./art/sistemas/consoles/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<pos>0.400 0.855</pos>
+<maxSize>0.12 0.12</maxSize>
+<storyboard>
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+</storyboard> 
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FFFFFFFF</color>
+<origin>0 0</origin>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>92</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>90</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<image name="personaje4" extra="true">
+<path>./art/sistemas/character2/default.png</path>
+<path>./art/sistemas/character2/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<path>./art/sistemas/character3/default.png</path>
+<path>./art/sistemas/character3/${system.theme}.png</path>
+<linearSmooth>true</linearSmooth>
+<color>ffffff</color>
+<origin>0 0</origin>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>91</zIndex>
+</image>
+
+<image name="box1" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.401 0.60</pos>
+<maxSize>0.07 0.30</maxSize>
+<zIndex>40</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0.05</roundCorners>
+</image>
+
+<image name="box2" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.351 0.60</pos>
+<maxSize>0.04 0.20</maxSize>
+<zIndex>40</zIndex>
+<path>{random:thumbnail}</path>
+<color>FFFFFFFF</color>
+<roundCorners>0.05</roundCorners>
+</image>
+
+
+
+<image name="logofolder" extra="true">
+<origin>0.5 0.5</origin>
+<pos>0.353 0.110</pos>
+<maxSize>0.17 0.05</maxSize>
+<zIndex>95</zIndex>
+<path>./art/sistemas/logosimples/${system.theme}.png</path>
+<color>FFFFFFFF</color>
+<roundCorners>0.05</roundCorners>
+<visible>true</visible>
+<reflexion>0</reflexion>
+<opacity>0</opacity>
+<scale>0</scale>
+<scaleOrigin>0 0.5</scaleOrigin>
+<storyboard repeat="1">
+<animation property="opacity" from="0" to="1" duration="0" mode="linear"/>
+<animation property="scale" from="0" to="1" duration="0"/>
+</storyboard>
+</image>
+
+<helpsystem name="help">
+<visible>true</visible>
+<textColor>ffffff</textColor>
+<iconColor>ffffff</iconColor>
+<fontSize>0.020</fontSize>
+<pos>0.130 0.02</pos>
+<zIndex>91</zIndex>
+</helpsystem>
+    
+<text name="logoText">
+<fontSize>0.020</fontSize>
+<fontPath>./art/sistemas/fuentes/Pixel LCD-7.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./art/sistemas/ticket/${system.theme}.png</path>
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+
+
+</view>
+</theme>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="personaje5" extra="true">
+<storyboard>
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+</storyboard>
+</image>
+
+<text name="systemInfo">
+<storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+</storyboard>
+</text>
+</view>
+
+<view name="basic,detailed,grid,carousel,gamecarousel">
+<image name="personaje5" extra="true">
+<storyboard event="open">
+<animation property="opacity" from="0" to="0" duration="250" mode="easeIn"/>
+<animation property="opacity" from="0" to="1" duration="400" mode="easeIn" begin="250"/>
+<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+</storyboard>
+<storyboard event="activateNext">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+</storyboard>
+<storyboard event="activatePrev">
+<animation property="opacity" from="0" to="1" duration="400" mode="easeOutCubic"/>
+<animation property="y" from="1.01" begin="0" duration="1100" mode="Bump"/>
+</storyboard>
+<storyboard event="deactivateNext">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard>
+<storyboard event="deactivatePrev">
+<animation property="opacity" from="1" to="0" duration="400" mode="easeOutCubic"/>
+</storyboard> 
+</image>
+</view>
+</theme>

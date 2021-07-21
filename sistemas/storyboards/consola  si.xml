@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<image name="consola" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="consolasys" extra="true">
+<visible>true</visible>
+<origin>0 0</origin>
+<pos>0.400 0.855</pos>
+<maxSize>0.12 0.12</maxSize>
+</image>
+</view>
+
+<view name="basic,detailed,gridcarousel,gamecarousel">
+<image name="consola" extra="true">
+<origin>0 0</origin>
+<pos>0.400 0.855</pos>
+<maxSize>0.12 0.12</maxSize>
+</image>
+</view>
+</theme>
+

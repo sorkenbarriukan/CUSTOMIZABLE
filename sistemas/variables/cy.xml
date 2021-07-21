@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>DELWEDD CEFNDIR</colorbgName>
+<sombraName>RHANNWCH AR EDGE CEFNDIR</sombraName>
+<marcoName>MATH O FFRAMWAITH FIDEO</marcoName>
+<sizevidName>MAINT FFRAM FIDEO</sizevidName>
+<glassName>EFFAITH GWYDR AR FIDEO</glassName>
+<scanlineName>SCANLINE DROS FIDEO</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIFEILIAID MEWN DELWEDD CEFNDIR</subset.animacion-imagen-de-fondo>
+<zIndexName>ZINDEX Y NODWEDDION</zIndexName>
+<size-personaje1Name>MAINT CYMERIAD 1</size-personaje1Name>
+<size-personaje2Name>MAINT CYMERIAD 2</size-personaje2Name>
+<size-personaje3Name>MAINT CYMERIAD 3</size-personaje3Name>
+<opciones-de-videoName>OPSIYNAU CEFNDIR FIDEO (system yn unig)</opciones-de-videoName>
+<mostrar-boxarteName>DANGOS COVERS</mostrar-boxarteName>
+<mostrar-consolaName>DANGOS YMGYNGHORI</mostrar-consolaName>
+<animacion-de-personajes-1Name>CYMERIAD 1 ANIFEILIAID</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>CYMERIAD 2 ANIFEILIAID</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>CYMERIAD 3 ANIFEILIAID</animacion-de-personajes-3Name>
+<trancicionName>TRAWSNEWID FIDEO</trancicionName>
+
+<systemViewName>GOLWG NEWID YN Y SYSTEM</systemViewName>
+<banderasName>DANGOS IAITH FLAG</banderasName>
+<mostra-personajesName>DANGOS CYMERIAD</mostra-personajesName>
+<size-personajesName>SEFYLLFA CYMERIAD</size-personajesName>
+<mostrar-boxartName>DANGOS BOXART yn bresennol yn y system yn unig</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>YMGEISIO EFFEITHIO I'R CYMERIAD MEWN SYSTEM</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>YMGEISIO EFFEITHIO I'R CYMERIAD MEWN GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>NEWID LOGOS YN CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>NEWID LOGOS MEWN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ANIFEILIAID GWEITHREDOL YN LOGO CAROUSEL GWEITHREDOL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPSIYNAU DELWEDD CEFNDIR</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>YMGEISIO SAIN AR CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>YMGEISIO SAIN YN Y GAMEMYDD</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>EFFAITH FIDEO SYSTEM</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFEITHIO I'R FIDEO YN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>NEWID ARIAN MENU</menuName>
+<storylogocarruselsistemaName>SYMUDIAD GWEITHREDOL YN LOGO CAROUSEL GWEITHREDOL</storylogocarruselsistemaName>
+<infoName>IAITH NEWID YN UNIG YN (Golwg Clasurol)</infoName>
+<MarqueeStyleName>NEWID LOGOS MEWN CHWARAEWR (Pabell)</MarqueeStyleName>
+<systemViewExInfos>SIOE (InfoEx) YN Y SYSTEM</systemViewExInfos> 
+<subset.Logosoncarousel>NEWID LOGOS CAROUSEL YN Y SYSTEM</subset.Logosoncarousel>
+<subset.shader>RHANNAU - (UCHOD POB UN)</subset.shader>
+<subset.colorset>LLIW SYSTEM NEWID (Bwydlenni)</subset.colorset>
+</variables>
+</theme>

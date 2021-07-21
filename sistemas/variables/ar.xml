@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>الصورة الخلفية</colorbgName>
+<sombraName>الظل على حافة الخلفية</sombraName>
+<marcoName>نوع إطار الفيديو</marcoName>
+<sizevidName>حجم إطار الفيديو</sizevidName>
+<glassName>تأثير الزجاج على الفيديو</glassName>
+<scanlineName>مسح على الفيديو</scanlineName>
+<subset.animacion-imagen-de-fondo>الرسوم المتحركة في صورة الخلفية</subset.animacion-imagen-de-fondo>
+<zIndexName>زيندكس الشخصيات</zIndexName>
+<size-personaje1Name>حجم الحرف 1</size-personaje1Name>
+<size-personaje2Name>حجم الحرف 2</size-personaje2Name>
+<size-personaje3Name>حجم الحرف 3</size-personaje3Name>
+<opciones-de-videoName>خيارات خلفية الفيديو (النظام فقط)</opciones-de-videoName>
+<mostrar-boxarteName>عرض الأغطية</mostrar-boxarteName>
+<mostrar-consolaName>وحدة العرض</mostrar-consolaName>
+<animacion-de-personajes-1Name>الرسوم المتحركة الشخصية 1</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>الرسوم المتحركة الشخصية 2</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>شخصية 3 الرسوم المتحركة</animacion-de-personajes-3Name>
+<trancicionName>انتقال الفيديو</trancicionName>
+
+<systemViewName>عرض التغيير في النظام
+</systemViewName>
+<banderasName>اعرض لغة العلم
+</banderasName>
+<mostra-personajesName>عرض الحرف
+</mostra-personajesName>
+<size-personajesName>موقف الشخصية</size-personajesName>
+<mostrar-boxartName>عرض BOXART موجود فقط في النظام</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>تطبيق التأثير على الشخصية في النظام
+</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>تطبيق التأثير على الشخصية في قائمة الألعاب
+</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>تغيير الشعارات في CAROUSEL
+</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>تغيير الشعارات في قائمة الألعاب
+</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>تنشيط الرسوم المتحركة في شعار CAROUSEL النشط
+</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>خيارات الصورة الخلفية
+</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>تطبيق الصوت على CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>تطبيق الصوت في قائمة الألعاب
+</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>تأثير نظام الفيديو
+</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>التأثير على الفيديو في قائمة الألعاب
+</subset.opciones-de-video-gamelist>
+<menuName>تغيير نمط القائمة
+</menuName>
+<storylogocarruselsistemaName>تنشيط الحركة في شعار CAROUSEL النشط
+</storylogocarruselsistemaName>
+<infoName>تغيير اللغة فقط في (العرض الكلاسيكي)
+</infoName>
+<MarqueeStyleName>تغيير الشعارات في قائمة التشغيل (الشاشة الاسمية)
+</MarqueeStyleName>
+<systemViewExInfos>عرض (InfoEx) في النظام
+</systemViewExInfos> 
+<subset.Logosoncarousel>تغيير شعارات CAROUSEL في النظام
+</subset.Logosoncarousel>
+<subset.shader>تظليل - (فوق الكل)
+</subset.shader>
+<subset.colorset>تغيير لون النظام (القوائم)
+</subset.colorset>
+</variables>
+</theme>

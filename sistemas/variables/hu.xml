@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>HÁTTÉRKÉP</colorbgName>
+<sombraName>Árnyék a háttér szélén</sombraName>
+<marcoName>A VIDEOKERET TÍPUSA</marcoName>
+<sizevidName>VIDEOKERET MÉRETE</sizevidName>
+<glassName>ÜVEGHATÁS A VIDEÓRA</glassName>
+<scanlineName>SZkennelje át a videót</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIMÁCIÓ HÁTTÉR KÉPBEN</subset.animacion-imagen-de-fondo>
+<zIndexName>A JELLEMZŐK ZINDEXE</zIndexName>
+<size-personaje1Name>1. JELLEMZŐ MÉRETE</size-personaje1Name>
+<size-personaje2Name>A 2. JELLEMZŐ MÉRETE</size-personaje2Name>
+<size-personaje3Name>JELLEMZŐMÉRET 3</size-personaje3Name>
+<opciones-de-videoName>VIDEÓ HÁTTÉR Opciók (csak rendszer)</opciones-de-videoName>
+<mostrar-boxarteName>MUTASD A BURKOLATOKAT</mostrar-boxarteName>
+<mostrar-consolaName>MUTASD A KONZOLT</mostrar-consolaName>
+<animacion-de-personajes-1Name>1. JELLEMZŐ ANIMÁCIÓ</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>2. JELLEMZŐ ANIMÁCIÓ</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>3. JELLEMZŐ ANIMÁCIÓ</animacion-de-personajes-3Name>
+<trancicionName>VIDEÓ TRANCITION</trancicionName>
+
+<systemViewName>NÉZET VÁLTOZÁSA A RENDSZERBEN</systemViewName>
+<banderasName>MUTASD A ZÁLK NYELVÉT</banderasName>
+<mostra-personajesName>MUTASD A JELLEMZŐT</mostra-personajesName>
+<size-personajesName>JELLEMZŐI HELYZET</size-personajesName>
+<mostrar-boxartName>A SHOW BOXART csak a rendszerben van jelen</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>ALKALMAZÁS HATÁSA A RENDSZER JELLEGÉRE</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>HATÁSA A JÁTÉKRA A JÁTÉKLISTÁN</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>LOGÓK VÁLTOZÁSA KARUSZELBEN</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>LOGÓK MÓDOSÍTÁSA A GAMELISZTÁLYBAN</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>AKTIVÁLJA AZ ANIMÁCIÓT AKTÍV KARUSZELOGÓBAN</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>HÁTTÉR KÉP OPCIÓK</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ALKALMAZZON HANGOT A KARUSZELRE</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ALKALMAZZA A GAMELISTÁBAN</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>RENDSZER VIDEÓ HATÁS</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>HATÁS A VIDEÓRA A GAMELISZTÁLYBAN</subset.opciones-de-video-gamelist>
+<menuName>MENÜ MÓDOSÍTÁSA</menuName>
+<storylogocarruselsistemaName>AKTIVÁLJA A MOZGÁST AKTÍV KARUSZEL LOGÓBAN</storylogocarruselsistemaName>
+<infoName>CSAK NYELV MÓDOSÍTÁSA (Klasszikus nézet)</infoName>
+<MarqueeStyleName>LOGÓK MÓDOSÍTÁSA A LEJÁTSZÁSI LISTÁBAN (sátor)</MarqueeStyleName>
+<systemViewExInfos>MUTASD (InfoEx) A RENDSZERBEN</systemViewExInfos> 
+<subset.Logosoncarousel>KARUSSZELOGÓK VÁLTOZTATÁSA A RENDSZERBEN</subset.Logosoncarousel>
+<subset.shader>SHADERS - (MINDEN FELETT)</subset.shader>
+<subset.colorset>A RENDSZER VÁLTOZTATÁSA (Menük)</subset.colorset>
+</variables>
+</theme>

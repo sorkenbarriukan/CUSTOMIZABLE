@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+ <!-----------------------------------------------------------------------------------------------------------------
+Total Size 1.7 GB
+Theme: CUSTOMIZABLE
+-------------------------------------------------------------------------------------------------------------------------->
+
+<theme defaultView="GAMECAROUSEL">
+<formatVersion>7</formatVersion>
+<variables>
+<colorbgName>IMAGEN DEL FONDO</colorbgName>
+<sombraName>SOMBRA EN BORDE DEL FONDO</sombraName>
+<marcoName>TIPO DEL MARCO DEL VIDEO</marcoName>
+<sizevidName>TAMANO DEL MARCO DEL VIDEO</sizevidName>
+<glassName>APLICAR EFECTO GLASS SOBRE VIDEO</glassName>
+<scanlineName>APLICAR SCANLINE SOBRE VIDEO</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIMACION EN IMAGEN DE TRASFONDO</subset.animacion-imagen-de-fondo>
+<zIndexName>ZINDEX DE LOS PERSONAJES</zIndexName>
+<size-personaje1Name>TAMAÑO DEL PERSONAJE 1</size-personaje1Name>
+<size-personaje2Name>TAMAÑO DEL PERSONAJE 2</size-personaje2Name>
+<size-personaje3Name>TAMAÑO DEL PERSONAJE 3</size-personaje3Name>
+<opciones-de-videoName>OPCIONES DE FONDO EN VIDEO (solo en system)</opciones-de-videoName>
+<mostrar-boxarteName>MOSTRAR CARATULAS</mostrar-boxarteName>
+<mostrar-consolaName>MOSTRAR CONSOLA</mostrar-consolaName>
+<animacion-de-personajes-1Name>PERSONAJE 1 ANIMACION</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>PERSONAJE 2 ANIMACION</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>PERSONAJE 3 ANIMACION</animacion-de-personajes-3Name>
+<trancicionName>TRANCICION EN VIDEO</trancicionName>
+<systemViewName>CAMBIAR VISTA EN SISTEMA</systemViewName>
+<mostra-personajesName>MOSTRAR PERSONAJES</mostra-personajesName>
+<cambiar-logos-en-carruselName>CAMBIAR LOGOS EN CARRUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CAMBIAR LOGOS EN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVAR ANIMACION EN LOGO ACTIVO DEL CARRUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.aplicar-sonido-en-carrusel>APLICAR SONIDO EN CARRUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLICAR SONIDO EN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<menuName>CAMBIAR ESTILO DEL MENU</menuName>
+<subset.shader>SHADERS - (POR ENCIMA DE TODO)</subset.shader>
+<subset.colorset>CAMBIAR COLOR DEL SISTEMA (Menus)</subset.colorset>
+</variables>
+
+
+<!-- LENGUAJES (VARIABLES) -->
+<include lang="es_MX">./art/sistemas/variables/es.xml</include>
+<include lang="es">./art/sistemas/variables/es.xml</include>
+<include lang="ca">./art/sistemas/variables/ca.xml</include>
+<include lang="cy">./art/sistemas/variables/cy.xml</include>
+<include lang="eu">./art/sistemas/variables/eu.xml</include>
+<include lang="nl">./art/sistemas/variables/nl.xml</include>
+<include lang="ar">./art/sistemas/variables/ar.xml</include>
+<include lang="pt_BR">./art/sistemas/variables/pt_BR.xml</include>
+<include lang="pt">./art/sistemas/variables/pt.xml</include>
+<include lang="it">./art/sistemas/variables/it.xml</include>
+<include lang="fr">./art/sistemas/variables/fr.xml</include>
+<include lang="ru">./art/sistemas/variables/ru.xml</include>
+<include lang="de">./art/sistemas/variables/de.xml</include>
+<include lang="gr">./art/sistemas/variables/gr.xml</include>
+<include lang="hu">./art/sistemas/variables/hu.xml</include>
+<include lang="el">./art/sistemas/variables/el.xml</include>
+<include lang="tr">./art/sistemas/variables/tr.xml</include>
+<include lang="ja">./art/sistemas/variables/ja.xml</include>
+<include lang="ko">./art/sistemas/variables/ko.xml</include>
+<include lang="oc">./art/sistemas/variables/oc.xml</include>
+<include lang="pl">./art/sistemas/variables/pl.xml</include>
+<include lang="zh">./art/sistemas/variables/zh.xml</include>
+<include lang="nn">./art/sistemas/variables/nn.xml</include>
+<include lang="sv">./art/sistemas/variables/sv.xml</include>
+<include lang="uk">./art/sistemas/variables/uk.xml</include>
+<include lang="en">./art/sistemas/variables/en.xml</include>
+  
+
+ <!--  Modos de Vistas en sistema -->
+<subset name="systemview" displayName="${systemViewName}">
+<include name="DEFAULT">./art/sistemas/systemview/default.xml</include>
+</subset>
+
+
+<!------------------------ ESTILO DE BACKGROUND-------------------------->
+<subset name="colorbg" displayName="${colorbgName}">
+<include name="ROJO (POR DEFECTO)">./art/sistemas/storyboards/BG/BGrojo.xml</include>
+<include name="NEGRO">./art/sistemas/storyboards/BG/BGnegro.xml</include>
+<include name="METAL">./art/sistemas/storyboards/BG/BGmetal.xml</include>
+<include name="AZUL">./art/sistemas/storyboards/BG/fondo carrusel azul.xml</include>
+<include name="AZUL + SEMI SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel azul trasp.xml</include>
+<include name="BLANCO">./art/sistemas/storyboards/BG/fondo carrusel blanco.xml</include>
+<include name="BLANCO  + SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel blanco trasp.xml</include>
+<include name="NARANJA">./art/sistemas/storyboards/BG/fondo carrusel naranja.xml</include>
+<include name="NARANJA + SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel naranja trasp.xml</include>
+<include name="OBSCURO">./art/sistemas/storyboards/BG/fondo carrusel obscuro.xml</include>
+<include name="OBSCURO + SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel obscuro trasp.xml</include>
+<include name="VERDE FUERTE">./art/sistemas/storyboards/BG/fondo carrusel verde ferte.xml</include>
+<include name="VERDE FUERTE + SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel verde ferte trasp.xml</include>
+<include name="VERDE">./art/sistemas/storyboards/BG/fondo carrusel verde.xml</include>
+<include name="VERDE + SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel verde trasp.xml</include>
+<include name="FIRE">./art/sistemas/storyboards/BG/fondo carrusel fire.xml</include>
+<include name="FIRE + TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel fire  trasp.xml</include>
+<include name="ROJO & BLANCO">./art/sistemas/storyboards/BG/fondo carrusel rojo&blanco.xml</include>
+<include name="ROJO & BLANCO + SEMI TRANSPARENTE">./art/sistemas/storyboards/BG/fondo carrusel rojo&blanco trasp.xml</include>
+<include name="COBRE">./art/sistemas/storyboards/BG/fondo cobre.xml</include>
+<include name="AZUL,BLANCO,METAL">./art/sistemas/storyboards/BG/fondo azul&blanco&metal.xml</include>
+</subset>
+
+<!------------------------ SONBRA EN BG-------------------------->
+<subset name="sombra" displayName="${sombraName}">
+<include name="NO (POR DEFECTO)">./art/sistemas/storyboards/BG/sombra no.xml</include>
+<include name="SI">./art/sistemas/storyboards/BG/sombra si.xml</include>
+<include name="DOBLE SOMBRA">./art/sistemas/storyboards/BG/sombra doble.xml</include>
+<include name="SOMBRA COMPLETA">./art/sistemas/storyboards/BG/sombra completa.xml</include>
+</subset>
+
+<!------------------------ MARCO DEL VIDEO-------------------------->
+<subset name="marco" displayName="${marcoName}">
+<include name="ROJO METALICO">./art/sistemas/storyboards/BG/marco wide rojo metalico.xml</include>
+<include name="EFECTO GLASS SIN MARCO">./art/sistemas/storyboards/BG/sin marco.xml</include>
+<include name=" AMARILLO&NARANJA">./art/sistemas/storyboards/BG/marco wide amarillo&naranja.xml</include>
+<include name=" AZUL">./art/sistemas/storyboards/BG/marco wide azul.xml</include>
+<include name=" NEGRO&GRIS">./art/sistemas/storyboards/BG/marco wide negro&gris.xml</include>
+<include name=" NEGRO&NARANJA">./art/sistemas/storyboards/BG/marco wide negro&naranja.xml</include>
+<include name=" ROJO">./art/sistemas/storyboards/BG/marco wide rojo.xml</include>
+<include name=" ROJO&NEGRO">./art/sistemas/storyboards/BG/marco wide rojo&negro.xml</include>
+<include name=" AZUL CON GRECAS">./art/sistemas/storyboards/BG/marco wide azul&grecas.xml</include>
+<include name=" CAFE">./art/sistemas/storyboards/BG/marco wide cafe.xml</include>
+<include name=" FIRE">./art/sistemas/storyboards/BG/marco wide fire.xml</include>
+<include name=" GRIS">./art/sistemas/storyboards/BG/marco wide gris.xml</include>
+<include name=" HEAVY">./art/sistemas/storyboards/BG/marco wide heavy.xml</include>
+<include name=" NARANJA&GLASS">./art/sistemas/storyboards/BG/marco wide naranja glass.xml</include>
+<include name=" VERDE">./art/sistemas/storyboards/BG/marco wide verde.xml</include>
+<include name="METAL CADENA">./art/sistemas/storyboards/BG/marco wide cadena.xml</include>
+<include name="COBRE">./art/sistemas/storyboards/BG/marco cobre.xml</include>
+<include name="GRIS METALICO">./art/sistemas/storyboards/BG/marco gris metalico.xml</include>
+<include name="BLANCO">./art/sistemas/storyboards/BG/marco blanco.xml</include>
+</subset>
+
+
+<!------------------------ TAMANO DEL VIDEO-------------------------->
+<subset name="sizevid" displayName="${sizevidName}">
+<include name="H.D (POR DEFECTO)">./art/sistemas/storyboards/BG/sizevid/default.xml</include>
+<include name="MEDIANO">./art/sistemas/storyboards/BG/sizevid/mediano.xml</include>
+<include name="CHICO">./art/sistemas/storyboards/BG/sizevid/chico.xml</include>
+</subset>
+
+
+<!------------------------ EFECTO GLASS EN VIDEO-------------------------->
+<subset name="glass" displayName="${glassName}">
+<include name="NO (POR DEFECTO)">./art/sistemas/storyboards/BG/glass no.xml</include>
+<include name="SI">./art/sistemas/storyboards/BG/glass si.xml</include>
+</subset>
+
+<!------------------------ SCANLINE EN VIDEO-------------------------->
+<subset name="scanline" displayName="${scanlineName}">
+<include name="NO (POR DEFECTO)">./art/sistemas/storyboards/BG/scanline no.xml</include>
+<include name="SI">./art/sistemas/storyboards/BG/scanline si.xml</include>
+</subset>
+
+<!------------------------ MENU-------------------------->
+<subset name="menu" displayName="${menuName}">
+<include name="FONDO ROJO (POR DEFECTO)">./art/sistemas/menus/por defecto.xml</include>
+<include name="FONDO OBSCURO - FUENTE Pixel LCD">./art/sistemas/menus/menu5.xml</include>
+<include name="FONDO RUIDO - FUENTE Pixel LCD">./art/sistemas/menus/menu6.xml</include>
+</subset>
+  
+ 
+<!-- --------------------------------------- ((( MOSTRAR PERSONAJES ))) -------------------------------- -->
+<subset name="mostrar-personajes" displayName="${mostra-personajesName}">
+<include name="NO (Por Defecto)" displayName="${yes}">./art/sistemas/storyboards/no Activate characters.xml</include>
+<include name="SI 3 PERSONAJES" displayName="${yes}">./art/sistemas/storyboards/characters.xml</include>
+<include name="SOLO PERSONAJE 1" displayName="${yes}">./art/sistemas/storyboards/solo 1.xml</include>
+<include name="SOLO PERSONAJE 2" displayName="${yes}">./art/sistemas/storyboards/solo 2.xml</include>
+<include name="SOLO PERSONAJE 3" displayName="${yes}">./art/sistemas/storyboards/solo 3.xml</include>
+<include name="SOLO PERSONAJE 2 & 3" displayName="${yes}">./art/sistemas/storyboards/solo2&3.xml</include>
+<include name="SOLO PERSONAJE 1 & 2" displayName="${yes}">./art/sistemas/storyboards/solo1&2.xml</include>
+<include name="SOLO PERSONAJE 1 & 3" displayName="${yes}">./art/sistemas/storyboards/solo1&3.xml</include>
+</subset>
+
+<!------------------------ ZINDEX DE LOS PERSONAJES-------------------------->
+<subset name="zIndex" displayName="${zIndexName}">
+<include name="ZINDEX (POR DEFECTO)">./art/sistemas/storyboards/BG/index default.xml</include>
+<include name="PERSONAJE 1 ATRAS DEL VIDEO">./art/sistemas/storyboards/BG/personaje1 atras.xml</include>
+<include name="PERSONAJE 2 ATRAS DEL VIDEO">./art/sistemas/storyboards/BG/personaje2 atras.xml</include>
+<include name="PERSONAJE 3 ATRAS DEL VIDEO">./art/sistemas/storyboards/BG/personaje3 atras.xml</include>
+<include name="PERSONAJE 1 & 2 ATRAS DEL VIDEO">./art/sistemas/storyboards/BG/personaje1&2 atras.xml</include>
+<include name="PERSONAJE 1 & 3 ATRAS DEL VIDEO">./art/sistemas/storyboards/BG/personaje1&3 atras.xml</include>
+<include name="PERSONAJE 2 & 3 ATRAS DEL VIDEO">./art/sistemas/storyboards/BG/personaje2&3 atras.xml</include>
+</subset>
+
+
+<!--  TAMAÑO DE PERSONAJE 1-->
+<subset name="size-personaje1" displayName="${size-personaje1Name}">
+<include name="AUTOMATIC">./art/sistemas/storyboards/system/character/size/automatic.xml</include>
+<include name="1x-Left">./art/sistemas/storyboards/system/character/size/L1x.xml</include>
+<include name="2x-Left">./art/sistemas/storyboards/system/character/size/L2x.xml</include>
+<include name="3x-Left">./art/sistemas/storyboards/system/character/size/L3x.xml</include>
+<include name="4x-Left">./art/sistemas/storyboards/system/character/size/L4x.xml</include>
+<include name="5x-Left">./art/sistemas/storyboards/system/character/size/L5x.xml</include>
+<include name="6x-Left">./art/sistemas/storyboards/system/character/size/L6x.xml</include>
+<include name="7x-Left">./art/sistemas/storyboards/system/character/size/L7x.xml</include>
+<include name="8x-Left">./art/sistemas/storyboards/system/character/size/L8x.xml</include>
+<include name="9x-Left">./art/sistemas/storyboards/system/character/size/L9x.xml</include>
+<include name="10x-Left">./art/sistemas/storyboards/system/character/size/L10x.xml</include>
+
+<include name="1x-Center">./art/sistemas/storyboards/system/character/size/C1x.xml</include>
+<include name="2x-Center">./art/sistemas/storyboards/system/character/size/C2x.xml</include>
+<include name="3x-Center">./art/sistemas/storyboards/system/character/size/C3x.xml</include>
+<include name="4x-Center">./art/sistemas/storyboards/system/character/size/C4x.xml</include>
+<include name="5x-Center">./art/sistemas/storyboards/system/character/size/C5x.xml</include>
+<include name="6x-Center">./art/sistemas/storyboards/system/character/size/C6x.xml</include>
+<include name="7x-Center">./art/sistemas/storyboards/system/character/size/C7x.xml</include>
+<include name="8x-Center">./art/sistemas/storyboards/system/character/size/C8x.xml</include>
+<include name="9x-Center">./art/sistemas/storyboards/system/character/size/C9x.xml</include>
+<include name="10x-Center">./art/sistemas/storyboards/system/character/size/C10x.xml</include>
+
+<include name="1x-RIGHT">./art/sistemas/storyboards/system/character/size/R1x.xml</include>
+<include name="2x-RIGHT">./art/sistemas/storyboards/system/character/size/R2x.xml</include>
+<include name="3x-RIGHT">./art/sistemas/storyboards/system/character/size/R3x.xml</include>
+<include name="4x-RIGHT">./art/sistemas/storyboards/system/character/size/R4x.xml</include>
+<include name="5x-RIGHT">./art/sistemas/storyboards/system/character/size/R5x.xml</include>
+<include name="6x-RIGHT">./art/sistemas/storyboards/system/character/size/R6x.xml</include>
+<include name="7x-RIGHT">./art/sistemas/storyboards/system/character/size/R7x.xml</include>
+<include name="8x-RIGHT">./art/sistemas/storyboards/system/character/size/R8x.xml</include>
+<include name="9x-RIGHT">./art/sistemas/storyboards/system/character/size/R9x.xml</include>
+<include name="10x-RIGHT">./art/sistemas/storyboards/system/character/size/R10x.xml</include>
+
+<include name="EXTREMO DERECHA 1x">./art/sistemas/storyboards/system/character/size/EXD1.xml</include>
+<include name="EXTREMO DERECHA 2x">./art/sistemas/storyboards/system/character/size/EXD2.xml</include>
+<include name="EXTREMO DERECHA 3x">./art/sistemas/storyboards/system/character/size/EXD3.xml</include>
+<include name="EXTREMO DERECHA 4x">./art/sistemas/storyboards/system/character/size/EXD4.xml</include>
+<include name="EXTREMO DERECHA 5x">./art/sistemas/storyboards/system/character/size/EXD5.xml</include>
+<include name="EXTREMO DERECHA 6x">./art/sistemas/storyboards/system/character/size/EXD6.xml</include>
+<include name="EXTREMO DERECHA 7x">./art/sistemas/storyboards/system/character/size/EXD7.xml</include>
+<include name="EXTREMO DERECHA 8x">./art/sistemas/storyboards/system/character/size/EXD8.xml</include>
+<include name="EXTREMO DERECHA 9x">./art/sistemas/storyboards/system/character/size/EXD9.xml</include>
+<include name="EXTREMO DERECHA 10x">./art/sistemas/storyboards/system/character/size/EXD10.xml</include>
+</subset>
+
+
+<!--  TAMAÑO DE PERSONAJE 2-->
+<subset name="size-personaje2" displayName="${size-personaje2Name}">
+<include name="AUTOMATIC">./art/sistemas/storyboards/system/character/size/automatic.xml</include>
+<include name="1x-Left">./art/sistemas/storyboards/system/character/size/2/L1x.xml</include>
+<include name="2x-Left">./art/sistemas/storyboards/system/character/size/2/L2x.xml</include>
+<include name="3x-Left">./art/sistemas/storyboards/system/character/size/2/L3x.xml</include>
+<include name="4x-Left">./art/sistemas/storyboards/system/character/size/2/L4x.xml</include>
+<include name="5x-Left">./art/sistemas/storyboards/system/character/size/2/L5x.xml</include>
+<include name="6x-Left">./art/sistemas/storyboards/system/character/size/2/L6x.xml</include>
+<include name="7x-Left">./art/sistemas/storyboards/system/character/size/2/L7x.xml</include>
+<include name="8x-Left">./art/sistemas/storyboards/system/character/size/2/L8x.xml</include>
+<include name="9x-Left">./art/sistemas/storyboards/system/character/size/2/L9x.xml</include>
+<include name="10x-Left">./art/sistemas/storyboards/system/character/size/2/L10x.xml</include>
+
+<include name="1x-Center">./art/sistemas/storyboards/system/character/size/2/C1x.xml</include>
+<include name="2x-Center">./art/sistemas/storyboards/system/character/size/2/C2x.xml</include>
+<include name="3x-Center">./art/sistemas/storyboards/system/character/size/2/C3x.xml</include>
+<include name="4x-Center">./art/sistemas/storyboards/system/character/size/2/C4x.xml</include>
+<include name="5x-Center">./art/sistemas/storyboards/system/character/size/2/C5x.xml</include>
+<include name="6x-Center">./art/sistemas/storyboards/system/character/size/2/C6x.xml</include>
+<include name="7x-Center">./art/sistemas/storyboards/system/character/size/2/C7x.xml</include>
+<include name="8x-Center">./art/sistemas/storyboards/system/character/size/2/C8x.xml</include>
+<include name="9x-Center">./art/sistemas/storyboards/system/character/size/2/C9x.xml</include>
+<include name="10x-Center">./art/sistemas/storyboards/system/character/size/2/C10x.xml</include>
+
+<include name="1x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R1x.xml</include>
+<include name="2x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R2x.xml</include>
+<include name="3x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R3x.xml</include>
+<include name="4x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R4x.xml</include>
+<include name="5x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R5x.xml</include>
+<include name="6x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R6x.xml</include>
+<include name="7x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R7x.xml</include>
+<include name="8x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R8x.xml</include>
+<include name="9x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R9x.xml</include>
+<include name="10x-RIGHT">./art/sistemas/storyboards/system/character/size/2/R10x.xml</include>
+
+<include name="EXTREMO DERECHA 1x">./art/sistemas/storyboards/system/character/size/2/EXD1.xml</include>
+<include name="EXTREMO DERECHA 2x">./art/sistemas/storyboards/system/character/size/2/EXD2.xml</include>
+<include name="EXTREMO DERECHA 3x">./art/sistemas/storyboards/system/character/size/2/EXD3.xml</include>
+<include name="EXTREMO DERECHA 4x">./art/sistemas/storyboards/system/character/size/2/EXD4.xml</include>
+<include name="EXTREMO DERECHA 5x">./art/sistemas/storyboards/system/character/size/2/EXD5.xml</include>
+<include name="EXTREMO DERECHA 6x">./art/sistemas/storyboards/system/character/size/2/EXD6.xml</include>
+<include name="EXTREMO DERECHA 7x">./art/sistemas/storyboards/system/character/size/2/EXD7.xml</include>
+<include name="EXTREMO DERECHA 8x">./art/sistemas/storyboards/system/character/size/2/EXD8.xml</include>
+<include name="EXTREMO DERECHA 9x">./art/sistemas/storyboards/system/character/size/2/EXD9.xml</include>
+<include name="EXTREMO DERECHA 10x">./art/sistemas/storyboards/system/character/size/2/EXD10.xml</include>
+</subset>
+
+
+<!--  TAMAÑO DE PERSONAJE 3-->
+<subset name="size-personaje3" displayName="${size-personaje3Name}">
+<include name="AUTOMATIC">./art/sistemas/storyboards/system/character/size/automatic.xml</include>
+<include name="1x-Left">./art/sistemas/storyboards/system/character/size/3/L1x.xml</include>
+<include name="2x-Left">./art/sistemas/storyboards/system/character/size/3/L2x.xml</include>
+<include name="3x-Left">./art/sistemas/storyboards/system/character/size/3/L3x.xml</include>
+<include name="4x-Left">./art/sistemas/storyboards/system/character/size/3/L4x.xml</include>
+<include name="5x-Left">./art/sistemas/storyboards/system/character/size/3/L5x.xml</include>
+<include name="6x-Left">./art/sistemas/storyboards/system/character/size/3/L6x.xml</include>
+<include name="7x-Left">./art/sistemas/storyboards/system/character/size/3/L7x.xml</include>
+<include name="8x-Left">./art/sistemas/storyboards/system/character/size/3/L8x.xml</include>
+<include name="9x-Left">./art/sistemas/storyboards/system/character/size/3/L9x.xml</include>
+<include name="10x-Left">./art/sistemas/storyboards/system/character/size/3/L10x.xml</include>
+
+<include name="1x-Center">./art/sistemas/storyboards/system/character/size/3/C1x.xml</include>
+<include name="2x-Center">./art/sistemas/storyboards/system/character/size/3/C2x.xml</include>
+<include name="3x-Center">./art/sistemas/storyboards/system/character/size/3/C3x.xml</include>
+<include name="4x-Center">./art/sistemas/storyboards/system/character/size/3/C4x.xml</include>
+<include name="5x-Center">./art/sistemas/storyboards/system/character/size/3/C5x.xml</include>
+<include name="6x-Center">./art/sistemas/storyboards/system/character/size/3/C6x.xml</include>
+<include name="7x-Center">./art/sistemas/storyboards/system/character/size/3/C7x.xml</include>
+<include name="8x-Center">./art/sistemas/storyboards/system/character/size/3/C8x.xml</include>
+<include name="9x-Center">./art/sistemas/storyboards/system/character/size/3/C9x.xml</include>
+<include name="10x-Center">./art/sistemas/storyboards/system/character/size/3/C10x.xml</include>
+
+<include name="1x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R1x.xml</include>
+<include name="2x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R2x.xml</include>
+<include name="3x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R3x.xml</include>
+<include name="4x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R4x.xml</include>
+<include name="5x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R5x.xml</include>
+<include name="6x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R6x.xml</include>
+<include name="7x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R7x.xml</include>
+<include name="8x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R8x.xml</include>
+<include name="9x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R9x.xml</include>
+<include name="10x-RIGHT">./art/sistemas/storyboards/system/character/size/3/R10x.xml</include>
+
+<include name="EXTREMO DERECHA 1x">./art/sistemas/storyboards/system/character/size/3/EXD1.xml</include>
+<include name="EXTREMO DERECHA 2x">./art/sistemas/storyboards/system/character/size/3/EXD2.xml</include>
+<include name="EXTREMO DERECHA 3x">./art/sistemas/storyboards/system/character/size/3/EXD3.xml</include>
+<include name="EXTREMO DERECHA 4x">./art/sistemas/storyboards/system/character/size/3/EXD4.xml</include>
+<include name="EXTREMO DERECHA 5x">./art/sistemas/storyboards/system/character/size/3/EXD5.xml</include>
+<include name="EXTREMO DERECHA 6x">./art/sistemas/storyboards/system/character/size/3/EXD6.xml</include>
+<include name="EXTREMO DERECHA 7x">./art/sistemas/storyboards/system/character/size/3/EXD7.xml</include>
+<include name="EXTREMO DERECHA 8x">./art/sistemas/storyboards/system/character/size/3/EXD8.xml</include>
+<include name="EXTREMO DERECHA 9x">./art/sistemas/storyboards/system/character/size/3/EXD9.xml</include>
+<include name="EXTREMO DERECHA 10x">./art/sistemas/storyboards/system/character/size/3/EXD10.xml</include>
+</subset>
+
+
+
+<!-- storyboards  PERSONAJE 1-->
+<subset name="animacion-de-personajes-1" displayName="${animacion-de-personajes-1Name}">
+<include name="•NINGUNO">./art/sistemas/storyboards/system/character/default.xml</include>
+<include name="•SALTO  (it only works in gamelist)">./art/sistemas/storyboards/system/character/salto.xml</include>
+<include name="•Giro">./art/sistemas/storyboards/system/character/giro.xml</include>
+<include name="•Acople">./art/sistemas/storyboards/system/character/acople.xml</include>
+<include name="•Sacudida">./art/sistemas/storyboards/system/character/sacudida.xml</include>
+<include name="•Efecto Hypermax Plus+">./art/sistemas/storyboards/system/character/Efecto Hypermax Plus+.xml</include>
+<include name="•Opacity">./art/sistemas/storyboards/system/character/opacity.xml</include>
+<include name="•Aparecer Desde Izquierda">./art/sistemas/storyboards/system/character/From Left.xml</include>
+<include name="•Aparecer Desde Abajo">./art/sistemas/storyboards/system/character/From below.xml</include>
+<include name="•Aparecer Desde Arriva">./art/sistemas/storyboards/system/character/From above.xml</include>
+<include name="•Aparecer Desde Derecha">./art/sistemas/storyboards/system/character/From right Slow.xml</include>
+<include name="•Aparecer Lento">./art/sistemas/storyboards/system/character/Appears slow.xml</include>
+<include name="•bump">./art/sistemas/storyboards/system/character/bump.xml</include>
+<include name="•Rebote">./art/sistemas/storyboards/system/character/rebote.xml</include>
+<include name="•Escala">./art/sistemas/storyboards/system/character/scale&rotation.xml</include>
+<include name="•Parpedeo">./art/sistemas/storyboards/system/character/parpedeo.xml</include>
+<include name="•Opacidad y Giro">./art/sistemas/storyboards/system/character/opacity&rotation.xml</include>
+<include name="•Acercamiento">./art/sistemas/storyboards/system/character/Vayven.xml</include>
+<include name="•Extender">./art/sistemas/storyboards/system/character/Vuelta.xml</include>
+<include name="•Extender Hacia Abajo">./art/sistemas/storyboards/system/character/Vuelta centro.xml</include>
+<include name="•Estirar Ala Izquierda">./art/sistemas/storyboards/system/character/Stretch right.xml</include>
+<include name="•Estirar Ala Izquierda & Arriva">./art/sistemas/storyboards/system/character/Stretch left&Up.xml</include>
+<include name="•Desliz">./art/sistemas/storyboards/system/character/desliz.xml</include>
+<include name="•Glitch (first i must apply show character) ">./art/sistemas/storyboards/system/character/glitch.xml</include>
+</subset>
+
+<!-- storyboards  PERSONAJE 2-->
+<subset name="animacion-de-personajes-2" displayName="${animacion-de-personajes-2Name}">
+<include name="•NINGUNO">./art/sistemas/storyboards/system/character/personaje2/default.xml</include>
+<include name="•SALTO  (it only works in gamelist)">./art/sistemas/storyboards/system/character/personaje2/salto.xml</include>
+<include name="•Giro">./art/sistemas/storyboards/system/character/personaje2/giro.xml</include>
+<include name="•Sacudida">./art/sistemas/storyboards/system/character/personaje2/sacudida.xml</include>
+<include name="•Efecto Hypermax Plus+">./art/sistemas/storyboards/system/character/personaje2/Efecto Hypermax Plus+.xml</include>
+<include name="•Opacity">./art/sistemas/storyboards/system/character/personaje2/opacity.xml</include>
+<include name="•Aparecer Desde Izquierda">./art/sistemas/storyboards/system/character/personaje2/From Left.xml</include>
+<include name="•Aparecer Desde Abajo">./art/sistemas/storyboards/system/character/personaje2/From below.xml</include>
+<include name="•Aparecer Desde Arriva">./art/sistemas/storyboards/system/character/personaje2/From above.xml</include>
+<include name="•Aparecer Desde Derecha">./art/sistemas/storyboards/system/character/personaje2/From right Slow.xml</include>
+<include name="•Aparecer Lento">./art/sistemas/storyboards/system/character/personaje2/Appears slow.xml</include>
+<include name="•bump">./art/sistemas/storyboards/system/character/personaje2/bump.xml</include>
+<include name="•Rebote">./art/sistemas/storyboards/system/character/personaje2/rebote.xml</include>
+<include name="•Escala">./art/sistemas/storyboards/system/character/personaje2/scale&rotation.xml</include>
+<include name="•Parpedeo">./art/sistemas/storyboards/system/character/personaje2/parpedeo.xml</include>
+<include name="•Opacidad y Giro">./art/sistemas/storyboards/system/character/personaje2/opacity&rotation.xml</include>
+<include name="•Acercamiento">./art/sistemas/storyboards/system/character/personaje2/Vayven.xml</include>
+<include name="•Extender">./art/sistemas/storyboards/system/character/personaje2/Vuelta.xml</include>
+<include name="•Extender Hacia Abajo">./art/sistemas/storyboards/system/character/personaje2/Vuelta centro.xml</include>
+<include name="•Estirar Ala Izquierda">./art/sistemas/storyboards/system/character/personaje2/Stretch right.xml</include>
+<include name="•Estirar Ala Izquierda & Arriva">./art/sistemas/storyboards/system/character/personaje2/Stretch left&Up.xml</include>
+<include name="•Desliz">./art/sistemas/storyboards/system/character/personaje2/desliz.xml</include>
+</subset>
+
+<!-- storyboards  PERSONAJE 3-->
+<subset name="animacion-de-personajes-3" displayName="${animacion-de-personajes-3Name}">
+<include name="•NINGUNO">./art/sistemas/storyboards/system/character/personaje3/default.xml</include>
+<include name="•SALTO  (it only works in gamelist)">./art/sistemas/storyboards/system/character/personaje3/salto.xml</include>
+<include name="•Giro">./art/sistemas/storyboards/system/character/personaje3/giro.xml</include>
+<include name="•Sacudida">./art/sistemas/storyboards/system/character/personaje3/sacudida.xml</include>
+<include name="•Efecto Hypermax Plus+">./art/sistemas/storyboards/system/character/personaje3/Efecto Hypermax Plus+.xml</include>
+<include name="•Opacity">./art/sistemas/storyboards/system/character/personaje3/opacity.xml</include>
+<include name="•Aparecer Desde Izquierda">./art/sistemas/storyboards/system/character/personaje3/From Left.xml</include>
+<include name="•Aparecer Desde Abajo">./art/sistemas/storyboards/system/character/personaje3/From below.xml</include>
+<include name="•Aparecer Desde Arriva">./art/sistemas/storyboards/system/character/personaje3/From above.xml</include>
+<include name="•Aparecer Desde Derecha">./art/sistemas/storyboards/system/character/personaje3/From right Slow.xml</include>
+<include name="•Aparecer Lento">./art/sistemas/storyboards/system/character/personaje3/Appears slow.xml</include>
+<include name="•bump">./art/sistemas/storyboards/system/character/personaje3/bump.xml</include>
+<include name="•Rebote">./art/sistemas/storyboards/system/character/personaje3/rebote.xml</include>
+<include name="•Escala">./art/sistemas/storyboards/system/character/personaje3/scale&rotation.xml</include>
+<include name="•Parpedeo">./art/sistemas/storyboards/system/character/personaje3/parpedeo.xml</include>
+<include name="•Opacidad y Giro">./art/sistemas/storyboards/system/character/personaje3/opacity&rotation.xml</include>
+<include name="•Acercamiento">./art/sistemas/storyboards/system/character/personaje3/Vayven.xml</include>
+<include name="•Extender">./art/sistemas/storyboards/system/character/personaje3/Vuelta.xml</include>
+<include name="•Extender Hacia Abajo">./art/sistemas/storyboards/system/character/personaje3/Vuelta centro.xml</include>
+<include name="•Estirar Ala Izquierda">./art/sistemas/storyboards/system/character/personaje3/Stretch right.xml</include>
+<include name="•Estirar Ala Izquierda & Arriva">./art/sistemas/storyboards/system/character/personaje3/Stretch left&Up.xml</include>
+<include name="•Desliz">./art/sistemas/storyboards/system/character/personaje3/desliz.xml</include>
+</subset>
+
+
+<!--  OPCIONES DE VIDEO-->
+<subset name="opciones-de-video" displayName="${opciones-de-videoName}">
+<include name="MOSTAR VIDEO ALEATORIO (Por Defecto)" displayName="${yes}">./art/sistemas/storyboards/system/video/videorandom.xml</include>
+<include name="MOSTAR VISEO DEL SISTEMA - if it exists" displayName="${yes}">./art/sistemas/storyboards/system/video/videosystem.xml</include>
+<include name="MOSTAR WALLPAPER DEL SISTEMA" displayName="${yes}">./art/sistemas/storyboards/system/video/videowallpaper.xml</include>
+</subset>
+
+<!-- --------------------------------------- ((( SHOW BOXART ))) -------------------------------- -->
+<subset name="mostrar-boxarte" displayName="${mostrar-boxarteName}">
+<include name="NO" displayName="${yes}">./art/sistemas/storyboards/boxart no.xml</include>
+<include name="SI" displayName="${yes}">./art/sistemas/storyboards/boxart si.xml</include>
+</subset>
+
+<!-- --------------------------------------- ((( SHOW consola ))) -------------------------------- -->
+<subset name="mostrar-consola" displayName="${mostrar-consolaName}">
+<include name="NO" displayName="${yes}">./art/sistemas/storyboards/consola no.xml</include>
+<include name="SI" displayName="${yes}">./art/sistemas/storyboards/consola si.xml</include>
+</subset>
+
+<!-- --------------------------------------- ((( OPCIONES DE LOGOS ))) -------------------------------- -->
+<subset name="cambiar-logos-en-carrusel" displayName="${cambiar-logos-en-carruselName}">
+ <include name="˙SILVERRING default " displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>  
+<include name="˙SIMPLES" displayName="${no}">./art/sistemas/storyboards/logos/simples.xml</include>     
+</subset>
+
+<!--  tipo de marquesina -->
+<subset name="cambiar-logos-en-gamelist" displayName="${cambiar-logos-en-gamelistName}">
+<include name=" ˙SILVERRING default">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
+<include name=" ˙LOGOS DE JUEGOS">./art/sistemas/storyboards/menu/logo/logo.xml</include>
+<include name=" ˙LOGOS SIMPLES">./art/sistemas/storyboards/menu/logo/simples.xml</include>
+</subset>
+
+
+<!-- MOVIMIENTO EN LOGO SELECCIONADO DEL CARRUSEL EN SISTEMA-->
+<subset name="activar-movimiento-en-logo-de-carrusel" displayName="${activar-movimiento-en-logo-de-carruselName}">
+<include name="˙NINGUNO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel NO.xml</include>
+<include name="˙DESLIZAMIENTO" displayName="${si}">./art/sistemas/storyboards/logos/desliz.xml</include>
+<include name="˙BUMP" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel SI.xml</include>
+<include name="˙GLITCH" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel GLITCH.xml</include>
+<include name="˙PARPADEO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel PARPADEO.xml</include>
+<include name="˙ESTIRAR" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel ESTIRAR.xml</include>
+<include name="˙BLINK" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel BLINK.xml</include>
+<include name="˙ESTIRAR DESDE CENTRO" displayName="${si}">./art/sistemas/storyboards/logos/movimiento en carrusel ESTIRAR DESDE CENTRO.xml</include>
+</subset>
+
+<!-- --------------------------------------- ((( OPCIONES DE IMAGEN DE FONDO ))) -------------------------------- -->
+<!--  color en backgrownd -->
+<subset name="animacion-imagen-de-fondo" displayName="${subset.animacion-imagen-de-fondo}">
+<include name="COLOR NORMAL ( POR DEFECTO)" displayName="${Orange}">./art/sistemas/storyboards/colorbg/normal.xml</include>
+<include name="˙FUCHSIA" displayName="${red}">./art/sistemas/storyboards/colorbg/violeta.xml</include>
+<include name="˙VERDE" displayName="${red}">./art/sistemas/storyboards/colorbg/verde.xml</include>
+<include name="˙NARANJA" displayName="${red}">./art/sistemas/storyboards/colorbg/naranja.xml</include>
+<include name="˙ROJO" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo.xml</include>
+<include name="˙AMARILLO" displayName="${red}">./art/sistemas/storyboards/colorbg/amarillo.xml</include>
+<include name="˙AQUA" displayName="${red}">./art/sistemas/storyboards/colorbg/aqua.xml</include>
+<include name="˙AZUL" displayName="${red}">./art/sistemas/storyboards/colorbg/azul.xml</include>
+
+<!--  Animate Backgrownd-->
+<include name="(( APLICAR ANIMACION A LA IMAGEN DE FONDO ))" displayName="${yes}"></include>
+<include name="SIN ANIMAR (POR DEFECTO)" displayName="${yes}">./art/sistemas/storyboards/backgrownd/none.xml</include>
+<include name="˙BUMP" displayName="${yes}">./art/sistemas/storyboards/backgrownd/bump.xml</include>
+<include name="˙BLINK" displayName="${yes}">./art/sistemas/storyboards/backgrownd/blink.xml</include>
+<include name="˙Desde Arriva & Abajo" displayName="${yes}">./art/sistemas/storyboards/backgrownd/move.xml</include>
+<include name="˙SACUDIDA" displayName="${yes}">./art/sistemas/storyboards/backgrownd/sacudida.xml</include>
+<include name="˙EFECTO Hypermax Plus+" displayName="${red}">./art/sistemas/storyboards/backgrownd/Efecto Hypermax Plus+.xml</include>
+<include name="˙GIRO" displayName="${yes}">./art/sistemas/storyboards/backgrownd/giro.xml</include>
+<include name="˙PARPADEO" displayName="${yes}">./art/sistemas/storyboards/backgrownd/parpedeo.xml</include>
+<include name="˙De derercha A Izquierda" displayName="${yes}">./art/sistemas/storyboards/backgrownd/from right to left.xml</include>
+<include name="˙TREMOR" displayName="${yes}">./art/sistemas/storyboards/backgrownd/tremor.xml</include>
+<include name="˙TEMBLOR" displayName="${yes}">./art/sistemas/storyboards/backgrownd/shake.xml</include>
+<include name="˙Estirar ala derecha" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch right.xml</include>
+<include name="˙Estirar en Varios Angulos" displayName="${yes}">./art/sistemas/storyboards/backgrownd/For all sides.xml</include>
+<include name="˙Estirar hacia Abajo" displayName="${yes}">./art/sistemas/storyboards/backgrownd/Stretch down.xml</include>
+<include name="˙VUELTAS" displayName="${yes}">./art/sistemas/storyboards/backgrownd/vueltas.xml</include>
+<include name="˙Cambiar Color De Rojo a Naranja" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo&naranja.xml</include>
+<include name="˙Cambiar Color De Amarillo a Rojo" displayName="${red}">./art/sistemas/storyboards/colorbg/rojo&naranja.xml</include>
+<include name="˙Cambiar Color De Verde a Azul" displayName="${red}">./art/sistemas/storyboards/colorbg/verde2azul.xml</include>
+<include name="˙Cambiar Color De Fuchsia a Amarillo" displayName="${red}">./art/sistemas/storyboards/colorbg/fuchia2amarillo.xml</include>
+</subset>
+
+
+
+<!-- --------------------------------------- ((( OPCIONES DE SONIDO SISTEMA Y GAMELIST ))) -------------------------------- -->
+
+<!-- sonidos en sistema-->
+<subset name="aplicar-sonido-en-carrusel" displayName="${subset.aplicar-sonido-en-carrusel}">
+<include name="˙Ninguno ((POR DEFECTO))" displayName="${none}"/>
+<include name="˙dkJump">./art/sistemas/sounds navigation/dkjump.xml</include>
+<include name="˙smwactivated">./art/sistemas/sounds navigation/smw activated.xml</include>
+<include name="˙basic">./art/sistemas/sounds navigation/basic.xml</include>
+<include name="˙beep_4">./art/sistemas/sounds navigation/beep_4.xml</include>
+<include name="˙beep_5">./art/sistemas/sounds navigation/beep_5.xml</include>
+<include name="˙beep_9">./art/sistemas/sounds navigation/beep_9.xml</include>
+<include name="˙beep_11">./art/sistemas/sounds navigation/beep_11.xml</include>
+<include name="˙beep_12">./art/sistemas/sounds navigation/beep_12.xml</include>
+<include name="˙beep_13">./art/sistemas/sounds navigation/beep_13.xml</include>
+<include name="˙beep_19">./art/sistemas/sounds navigation/beep_19.xml</include>
+<include name="˙beep_20">./art/sistemas/sounds navigation/beep_20.xml</include>
+<include name="˙beep_21">./art/sistemas/sounds navigation/beep_21.xml</include>
+<include name="˙highlight">./art/sistemas/sounds navigation/highlight.xml</include>
+<include name="˙keyok2">./art/sistemas/sounds navigation/keyok2.xml</include>
+<include name="˙keyok3">./art/sistemas/sounds navigation/keyok3.xml</include>
+<include name="˙keyok5">./art/sistemas/sounds navigation/keyok5.xml</include>
+<include name="˙lm_coin">./art/sistemas/sounds navigation/lm_coin.xml</include>
+<include name="˙lm_ghost">./art/sistemas/sounds navigation/lm_ghost.xml</include>
+<include name="˙load">./art/sistemas/sounds navigation/load.xml</include>
+<include name="˙mb_jump">./art/sistemas/sounds navigation/mb_jump.xml</include>
+<include name="˙mb_sc">./art/sistemas/sounds navigation/mb_sc.xml</include>
+<include name="˙mb_touch">./art/sistemas/sounds navigation/mb_touch.xml</include>
+<include name="˙no_damage">./art/sistemas/sounds navigation/no_damage.xml</include>
+<include name="˙nsmb_pause">./art/sistemas/sounds navigation/nsmb_pause.xml</include>
+<include name="˙romulan_beep1">./art/sistemas/sounds navigation/romulan_beep1.xml</include>
+<include name="˙scroll">./art/sistemas/sounds navigation/scroll.xml</include>
+<include name="˙scroll2">./art/sistemas/sounds navigation/scroll2.xml</include>
+<include name="˙scroll3">./art/sistemas/sounds navigation/scroll3.xml</include>
+<include name="˙smb3_map_travel">./art/sistemas/sounds navigation/smb3_map_travel.xml</include>
+<include name="˙smw_1-up">./art/sistemas/sounds navigation/smw_1-up.xml</include>
+<include name="˙smw_coin">./art/sistemas/sounds navigation/smw_coin.xml</include>
+<include name="˙smw_fireball">./art/sistemas/sounds navigation/smw_fireball.xml</include>
+<include name="˙smw_kick">./art/sistemas/sounds navigation/smw_kick.xml</include>
+<include name="˙smw_stomp">./art/sistemas/sounds navigation/smw_stomp.xml</include>
+<include name="˙systemsound">./art/sistemas/sounds navigation/systemsound.xml</include>
+</subset>
+
+<!--  sonidos de navegacion para grid & gamelist -->
+<subset name="aplicar-sonido-en-gamelist" displayName="${subset.aplicar-sonido-en-gamelistl}">
+<include name="•Ninguno (POR DEFECTO)" displayName="${none}"/>
+<include name="•dkJump">./art/sistemas/sounds navigation/sndgrid/dkjump.xml</include>
+<include name="•smwactivated">./art/sistemas/sounds navigation/sndgrid/smw activated.xml</include>
+<include name="•basic">./art/sistemas/sounds navigation/sndgrid/basic.xml</include>
+<include name="•beep_4">./art/sistemas/sounds navigation/sndgrid/beep_4.xml</include>
+<include name="•beep_5">./art/sistemas/sounds navigation/sndgrid/beep_5.xml</include>
+<include name="•beep_9">./art/sistemas/sounds navigation/sndgrid/beep_9.xml</include>
+<include name="•beep_11">./art/sistemas/sounds navigation/sndgrid/beep_11.xml</include>
+<include name="•beep_12">./art/sistemas/sounds navigation/sndgrid/beep_12.xml</include>
+<include name="•beep_13">./art/sistemas/sounds navigation/sndgrid/beep_13.xml</include>
+<include name="•beep_19">./art/sistemas/sounds navigation/sndgrid/beep_19.xml</include>
+<include name="•beep_20">./art/sistemas/sounds navigation/sndgrid/beep_20.xml</include>
+<include name="•beep_21">./art/sistemas/sounds navigation/sndgrid/beep_21.xml</include>
+<include name="•highlight">./art/sistemas/sounds navigation/sndgrid/highlight.xml</include>
+<include name="•keyok2">./art/sistemas/sounds navigation/sndgrid/keyok2.xml</include>
+<include name="•keyok3">./art/sistemas/sounds navigation/sndgrid/keyok3.xml</include>
+<include name="•keyok5">./art/sistemas/sounds navigation/sndgrid/keyok5.xml</include>
+<include name="•lm_coin">./art/sistemas/sounds navigation/sndgrid/lm_coin.xml</include>
+<include name="•lm_ghost">./art/sistemas/sounds navigation/sndgrid/lm_ghost.xml</include>
+<include name="•load">./art/sistemas/sounds navigation/sndgrid/load.xml</include>
+<include name="•mb_jump">./art/sistemas/sounds navigation/sndgrid/mb_jump.xml</include>
+<include name="•mb_sc">./art/sistemas/sounds navigation/sndgrid/mb_sc.xml</include>
+<include name="•mb_touch">./art/sistemas/sounds navigation/sndgrid/mb_touch.xml</include>
+<include name="•no_damage">./art/sistemas/sounds navigation/sndgrid/no_damage.xml</include>
+<include name="•nsmb_pause">./art/sistemas/sounds navigation/sndgrid/nsmb_pause.xml</include>
+<include name="•romulan_beep1">./art/sistemas/sounds navigation/sndgrid/romulan_beep1.xml</include>
+<include name="•scroll">./art/sistemas/sounds navigation/sndgrid/scroll.xml</include>
+<include name="•scroll2">./art/sistemas/sounds navigation/sndgrid/scroll2.xml</include>
+<include name="•scroll3">./art/sistemas/sounds navigation/sndgrid/scroll3.xml</include>
+<include name="•smb3_map_travel">./art/sistemas/sounds navigation/sndgrid/smb3_map_travel.xml</include>
+<include name="•smw_1-up">./art/sistemas/sounds navigation/sndgrid/smw_1-up.xml</include>
+<include name="•smw_coin">./art/sistemas/sounds navigation/sndgrid/smw_coin.xml</include>
+<include name="•smw_fireball">./art/sistemas/sounds navigation/sndgrid/smw_fireball.xml</include>
+<include name="•smw_kick">./art/sistemas/sounds navigation/sndgrid/smw_kick.xml</include>
+<include name="•smw_stomp">./art/sistemas/sounds navigation/sndgrid/smw_stomp.xml</include>
+<include name="•systemsound">./art/sistemas/sounds navigation/sndgrid/systemsound.xml</include>
+</subset>
+
+
+<!-- --------------------------------------- ((( OPCIONES DE VIDEO ))) -------------------------------- -->
+
+<subset name="trancicion" displayName="${trancicionName}">
+<include name="˙EaseOutCubic (POR DEFECTO)">./art/sistemas/storyboards/system/video/easeOutCubic.xml</include>
+<include name="˙Aparecer Desde La Izquierda">./art/sistemas/storyboards/system/video/From Left.xml</include>
+<include name="˙Aparecer Lento">./art/sistemas/storyboards/system/video/Appears slow.xml</include>
+<include name="˙Aparecer Desde Abajo">./art/sistemas/storyboards/system/video/From below.xml</include>
+<include name="˙Opacidad">./art/sistemas/storyboards/system/video/Opacity.xml</include>
+<include name="˙Aparecer Desde Arriva">./art/sistemas/storyboards/system/video/From above.xml</include>
+<include name="˙Bump">./art/sistemas/storyboards/system/video/bump.xml</include>
+<include name="˙Aparecer Desde La Derecha Lento">./art/sistemas/storyboards/system/video/From right Slow.xml</include>
+</subset>
+
+
+<!--  color en efectos y texto -->
+<subset name="Colorset" displayName="${subset.colorset}">
+<include name="ROJO" displayName="${red}">./art/sistemas/colors/red.xml</include>
+<include name="VERDE" displayName="${Orange}">./art/sistemas/colors/verde.xml</include>
+<include name="NARANJA" displayName="${Orange}">./art/sistemas/colors/orange.xml</include>
+<include name="AMARILLO" displayName="${yellow}">./art/sistemas/colors/yellow.xml</include>
+<include name="NEGRO" displayName="${Black}">./art/sistemas/colors/Black.xml</include>
+<include name="GRIS" displayName="${Grey}">./art/sistemas/colors/grey.xml</include>
+</subset>
+
+
+<!--  Efectos en pantalla encima de todo -->
+<subset name="Shader" displayName="${subset.shader}">
+<include name="Ninguno" displayName="${none}"/>
+<include name="Crt">./art/sistemas/shader/crt.xml</include>
+<include name="Filtro 2">./art/sistemas/shader/fitro 2.xml</include>
+<include name="Papel Para Comic View">./art/sistemas/shader/efecto papel arrugado.xml</include>
+<include name="ScanLines">./art/sistemas/shader/scanlines.xml</include>
+<include name="ScanLines-2">./art/sistemas/shader/scanlines3.xml</include>
+<include name="ScanLines-3">./art/sistemas/shader/scanlines4.xml</include>
+<include name="ScanLines-4">./art/sistemas/shader/scanlines5.xml</include>
+<include name="ScanLines-5">./art/sistemas/shader/scanlines7.xml</include>
+<include name="ScanLines-6">./art/sistemas/shader/scanlines10.xml</include>
+<include name="ScanLines vertical">./art/sistemas/shader/scanlines vertical.xml</include>
+<include name="Efecto Cristal">./art/sistemas/shader/glass effect.xml</include>
+<include name="Filtro Azul">./art/sistemas/shader/filtro hue blue.xml</include>
+</subset>
+
+
+<!--system -->
+<view name="system">  
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/.ttf</fontPath>
+<color>${baseColor}</color>
+<fontSize>0.060</fontSize>
+<forceUppercase>true</forceUppercase>
+</text>
+<image name="logo">
+<path>./${system.theme}/art/system-${lang}.png</path>
+<path>./${system.theme}/art/system-${lang}.svg</path>
+</image>
+</view>
+  
+  
+<!--------------------------- Pantalla por encima de todo------------------------------------- -->
+<view name="screen">
+<text name="clock">
+<textColor>777777FF</textColor>
+<fontSize>0.035</fontSize>
+<pos>0.90 0.94</pos>
+<size>0.09 0.058</size>
+<fontSize>0.020</fontSize>
+<alignment>right</alignment>
+<verticalAlignment>center</verticalAlignment>
+</text>
+<controllerActivity name="controllerActivity">
+<pos>0.01 0.01</pos>
+<size>0.085 0.025</size>
+<itemSpacing>0.003</itemSpacing>
+<imagePath>./art/gamepad.svg</imagePath>
+<color>516513</color>
+<activityColor>9abb34</activityColor>
+<hotkeyColor>516513</hotkeyColor>
+</controllerActivity>
+
+<text name="marca de agua" extra="true">
+<pos>0.0 0.974</pos>
+<size>0.285 0.025</size>
+<text>CUSTOMIZABLE</text>
+<fontSize>0.015</fontSize>
+<fontPath>./art/sistemas/fuentes/Anticlimax.ttf</fontPath>
+<color>ffffff50</color>
+<forceUppercase>true</forceUppercase>
+</text>
+</view>
+  
+  
+<!---------------------------  VISTAS EN LISTA DE JUEGOS----------------------- -->
+<include name="gamecarousel">./art/sistemas/vista-lista-juegos/gamecarousel.xml</include>
+<include name="DETALLADO">./art/sistemas/vista-lista-juegos/basic.xml</include>
+<include name="BASIC">./art/sistemas/vista-lista-juegos/detalle.xml</include>
+<include name="GRID">./art/sistemas/vista-lista-juegos/grid.xml</include>
+<include name="CAROUSEL">./art/sistemas/vista-lista-juegos/carrusel.xml</include>
+</theme>
+
+

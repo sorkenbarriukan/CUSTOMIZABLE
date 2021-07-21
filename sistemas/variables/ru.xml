@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>ФОНОВАЯ КАРТИНКА</colorbgName>
+<sombraName>ТЕНЬ НА КРАЙ ФОНА</sombraName>
+<marcoName>ТИП ВИДЕОКАДРА</marcoName>
+<sizevidName>РАЗМЕР ВИДЕОКАДРА</sizevidName>
+<glassName>ВЛИЯНИЕ СТЕКЛА НА ВИДЕО</glassName>
+<scanlineName>СКАНИРОВАТЬ НАД ВИДЕО</scanlineName>
+<subset.animacion-imagen-de-fondo>АНИМАЦИЯ НА ФОНОВОМ ИЗОБРАЖЕНИИ</subset.animacion-imagen-de-fondo>
+<zIndexName>ЗИНДЕКС ПЕРСОНАЖЕЙ</zIndexName>
+<size-personaje1Name>РАЗМЕР ХАРАКТЕРА 1</size-personaje1Name>
+<size-personaje2Name>РАЗМЕР ПЕРСОНАЖА 2</size-personaje2Name>
+<size-personaje3Name>РАЗМЕР ПЕРСОНАЖА 3</size-personaje3Name>
+<opciones-de-videoName>ВАРИАНТЫ ФОНОВОГО ВИДЕО (только система)</opciones-de-videoName>
+<mostrar-boxarteName>ПОКАЗАТЬ ОБЛОЖКИ</mostrar-boxarteName>
+<mostrar-consolaName>ПОКАЗАТЬ КОНСОЛЬ</mostrar-consolaName>
+<animacion-de-personajes-1Name>ПЕРСОНАЖ 1 АНИМАЦИЯ</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>ПЕРСОНАЖ 2 АНИМАЦИЯ</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>ПЕРСОНАЖ 3 АНИМАЦИЯ</animacion-de-personajes-3Name>
+<trancicionName>ВИДЕО ТРАНСИТИЦИЯ</trancicionName>
+
+<systemViewName>ИЗМЕНИТЬ ВИД В СИСТЕМЕ</systemViewName>
+<banderasName>ПОКАЗАТЬ ЯЗЫК ФЛАГА</banderasName>
+<mostra-personajesName>ПОКАЗАТЬ ПЕРСОНАЖ</mostra-personajesName>
+<size-personajesName>ПОЛОЖЕНИЕ ХАРАКТЕРА</size-personajesName>
+<mostrar-boxartName>SHOW BOXART присутствует только в системе</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>ПРИМЕНИТЬ ВЛИЯНИЕ НА ХАРАКТЕР В СИСТЕМЕ</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ПРИМЕНЯЙТЕ ЭФФЕКТ К ПЕРСОНАЖУ В ГАМЛИСТЕ</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ИЗМЕНИТЬ ЛОГОТИПЫ В CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ИЗМЕНИТЬ ЛОГОТИП В ИГРОВОМ СПИСКЕ</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>АКТИВИРОВАТЬ АНИМАЦИЮ В ЛОГОТИПЕ ACTIVE CAROUSEL</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>ВАРИАНТЫ ФОНОВОГО ИЗОБРАЖЕНИЯ</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ПРИМЕНИТЬ ЗВУК НА КАРОУСЕЛЬ</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ПРИМЕНИТЬ ЗВУК В ГАМЛИСТЕ</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>СИСТЕМНОЕ ВИДЕО ЭФФЕКТ</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>ВЛИЯНИЕ НА ВИДЕО В ГЕЙМЛИСТЕ</subset.opciones-de-video-gamelist>
+<menuName>ИЗМЕНИТЬ СТИЛЬ МЕНЮ</menuName>
+<storylogocarruselsistemaName>АКТИВИРОВАТЬ ДВИЖЕНИЕ В ЛОГОТИПЕ ACTIVE CAROUSEL</storylogocarruselsistemaName>
+<infoName>ИЗМЕНИТЬ ЯЗЫК ТОЛЬКО В (классический вид)</infoName>
+<MarqueeStyleName>ИЗМЕНИТЬ ЛОГОТИПЫ В ПЛЕЙЛИСТЕ (Бегущая строка)</MarqueeStyleName>
+<systemViewExInfos>ПОКАЗАТЬ (InfoEx) В СИСТЕМЕ</systemViewExInfos> 
+<subset.Logosoncarousel>ИЗМЕНИТЬ ЛОГОТИПЫ CAROUSEL В СИСТЕМЕ</subset.Logosoncarousel>
+<subset.shader>ШЕЙДЕРЫ - (ВЫШЕ ВСЕГО)</subset.shader>
+<subset.colorset>ИЗМЕНИТЬ ЦВЕТ СИСТЕМЫ (Меню)</subset.colorset>
+</variables>
+</theme>

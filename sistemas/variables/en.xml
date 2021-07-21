@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>BACKGROUND IMAGE</colorbgName>
+<sombraName>SHADOW ON EDGE OF BACKGROUND</sombraName>
+<marcoName>TYPE OF VIDEO FRAME</marcoName>
+<sizevidName>VIDEO FRAME SIZE</sizevidName>
+<glassName>GLASS EFFECT ON VIDEO</glassName>
+<scanlineName>SCANLINE OVER VIDEO</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIMATION IN BACKGROUND IMAGE</subset.animacion-imagen-de-fondo>
+<zIndexName>ZINDEX OF THE CHARACTERS</zIndexName>
+<size-personaje1Name>SIZE OF CHARACTER 1</size-personaje1Name>
+<size-personaje2Name>SIZE OF CHARACTER 2</size-personaje2Name>
+<size-personaje3Name>SIZE OF CHARACTER 3</size-personaje3Name>
+<opciones-de-videoName>VIDEO BACKGROUND OPTIONS (system only)</opciones-de-videoName>
+<mostrar-boxarteName>SHOW COVERS</mostrar-boxarteName>
+<mostrar-consolaName>SHOW CONSOLE</mostrar-consolaName>
+<animacion-de-personajes-1Name>CHARACTER 1 ANIMATION</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>CHARACTER 2 ANIMATION</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>CHARACTER 3 ANIMATION</animacion-de-personajes-3Name>
+<trancicionName>VIDEO TRANCITION</trancicionName>
+
+<systemViewName>CHANGE VIEW IN SYSTEM</systemViewName>
+<banderasName>SHOW FLAG LANGUAGE</banderasName>
+<mostra-personajesName>SHOW CHARACTER</mostra-personajesName>
+<size-personajesName>CHARACTER POSITION</size-personajesName>
+<mostrar-boxartName>SHOW BOXART present only in system</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>APPLY EFFECT TO THE CHARACTER IN SYSTEM</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>APPLY EFFECT TO THE CHARACTER IN GAMELIST</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CHANGE LOGOS IN CAROUSEL</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>CHANGE LOGOS IN GAMELIST</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ACTIVATE ANIMATION IN ACTIVE CAROUSEL LOGO</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>BACKGROUND IMAGE OPTIONS</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APPLY SOUND ON CAROUSEL</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APPLY SOUND IN GAMELIST</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEM VIDEO EFFECT</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>EFFECT TO THE VIDEO IN GAMELIST</subset.opciones-de-video-gamelist>
+<menuName>CHANGE MENU STYLE</menuName>
+<storylogocarruselsistemaName>ACTIVATE MOVEMENT IN ACTIVE CAROUSEL LOGO</storylogocarruselsistemaName>
+<infoName>CHANGE LANGUAGE ONLY IN (Classic View)</infoName>
+<MarqueeStyleName>CHANGE LOGOS IN PLAYLIST (Marquee)</MarqueeStyleName>
+<systemViewExInfos>SHOW (InfoEx) IN SYSTEM</systemViewExInfos> 
+<subset.Logosoncarousel>CHANGE CAROUSEL LOGOS IN SYSTEM</subset.Logosoncarousel>
+<subset.shader>SHADERS - (ABOVE ALL)</subset.shader>
+<subset.colorset>CHANGE SYSTEM COLOR (Menus)</subset.colorset>
+</variables>
+</theme>

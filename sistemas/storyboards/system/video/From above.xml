@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<video name="backgroundvideo" extra="true">
+<storyboard> 
+<animation property="y" from="0" begin="0" duration="700" mode="easeOut"/>
+</storyboard>
+</video>
+
+<video name="md_video">
+<storyboard> 
+<animation property="y" from="0" begin="0" duration="700" mode="easeOut"/>
+</storyboard>
+</video>
+
+<video name="md_image">
+<storyboard> 
+<animation property="y" from="0" begin="0" duration="700" mode="easeOut"/>
+</storyboard>
+</video>
+</view>
+</theme>

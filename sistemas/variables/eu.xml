@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>ATZEKO IRUDIA</colorbgName>
+<sombraName>ITZALA ATZEALDEAREN ERTZAN</sombraName>
+<marcoName>BIDEO MARKO MOTA</marcoName>
+<sizevidName>BIDEO MARKOAREN TAMAINA</sizevidName>
+<glassName>BETAURREKO EFEKTUA BIDEOAN</glassName>
+<scanlineName>BIDEOAREN GAINEKO SCANLINE</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIMAZIOA ATZEKO IRUDIAN</subset.animacion-imagen-de-fondo>
+<zIndexName>PERTSONAIEN ZINDEXIA</zIndexName>
+<size-personaje1Name>1. PERTSONAIAREN TAMAINA</size-personaje1Name>
+<size-personaje2Name>2. PERTSONAIAREN TAMAINA</size-personaje2Name>
+<size-personaje3Name>PERTSONAIA 3</size-personaje3Name>
+<opciones-de-videoName>BIDEO AURREKARITZARAKO AUKERAK (sistema soilik)</opciones-de-videoName>
+<mostrar-boxarteName>ERAKUTSI ESTALKIAK</mostrar-boxarteName>
+<mostrar-consolaName>ERAKUTSI KONSOLA</mostrar-consolaName>
+<animacion-de-personajes-1Name>1. PERTSONAIA ANIMAZIOA</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>2. PERTSONAIA ANIMAZIOA</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>3. PERTSONAIA ANIMAZIOA</animacion-de-personajes-3Name>
+<trancicionName>BIDEO TRANTZIZIOA</trancicionName>
+
+<systemViewName>ALDAKETA IKUSPEGIA SISTEMAN</systemViewName>
+<banderasName>ERAKUTSI BANDERA HIZKUNTZA</banderasName>
+<mostra-personajesName>ERAKUTSI PERTSONAIA</mostra-personajesName>
+<size-personajesName>
+PERTSONAIAREN POSIZIOA</size-personajesName>
+<mostrar-boxartName>SHOW BOXART sisteman bakarrik dago</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>SISTEMAKO PERTSONAIAREN ERAGINA APLIKATUA</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>JOKALARITZEKO PERTSONAIAREN ERAGINA APLIKATU</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ALDATU LOGOAK CAROUSELEN</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ALDATU LOGOAK JOLAS-LISTAN</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>ANIMAZIOA AKTIBATU KARRUSELA LOGO AKTIBOAN</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>AURREKARIAK IRUDI AUKERAK</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>APLIKATU SOINUA CAROUSELEN</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>APLIKATU SOINUA JOKALARI-LISTAN</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SISTEMAREN BIDEO EFEKTUA</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>JOKALARIEN BIDEOAREN ERAGINA</subset.opciones-de-video-gamelist>
+<menuName>MENU ALDAKETA ESTILOA</menuName>
+<storylogocarruselsistemaName>MUGIMENDUA AKTIBATU KARRUSELA LOGO AKTIBOAN</storylogocarruselsistemaName>
+<infoName>ALDAKETA HIZKUNTZA BAKARRIK (ikuspegi klasikoa)</infoName>
+<MarqueeStyleName>ALDATU LOGOAK PLAYLIST (Markesina)</MarqueeStyleName>
+<systemViewExInfos>IKUSI (InfoEx) SISTEMAN</systemViewExInfos> 
+<subset.Logosoncarousel>ALDATU KARRUSELAREN LOGOAK SISTEMAN</subset.Logosoncarousel>
+<subset.shader>SHADERS - (GUZTIEN GAINEZ)</subset.shader>
+<subset.colorset>SISTEMAREN KOLORE ALDAKETA (Menuak)</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="logo">
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate" repeat="1">
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" from="0" to="1.4" begin="175" duration="1000" mode="EaseOut"/>
+</storyboard>
+</image>
+
+<text name="logoText">
+<fontPath>./art/sistemas/fuentes/bestfriends.ttf</fontPath>
+<color>${baseColor}</color>
+<forceUppercase>true</forceUppercase>
+<storyboard event="activate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<storyboard event="deactivate">
+<animation property="opacity" from="1" to="1" duration="1" mode="linear"/>
+</storyboard>
+<linearSmooth>true</linearSmooth>
+<storyboard event="activate" repeat="1">
+<animation property="rotation" from="0" to="360" begin="0" duration="1000" mode="Bump"/>
+<animation property="scale" from="0" to="1.4" begin="175" duration="1000" mode="EaseOut"/>
+</storyboard>
+</text>
+</view>
+</theme>
+

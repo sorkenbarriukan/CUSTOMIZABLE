@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+
+<image name="personaje" extra="true">
+<zIndex>20</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<zIndex>18</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<zIndex>19</zIndex>
+</image>
+
+<image name="personaje5" extra="true">
+<zIndex>19</zIndex>
+</image>
+</view>
+</theme>

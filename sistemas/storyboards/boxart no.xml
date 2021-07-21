@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+<image name="box1" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="box2" extra="true">
+<visible>false</visible>
+</image>
+
+<image name="consola" extra="true">
+<visible>false</visible>
+</image>
+</view>
+
+<view name="basic, detailed, grid carousel, gamecarousel">
+<image name="md_thumbnail">
+<visible>false</visible>	
+</image>
+
+<image name="md_fanart">
+<visible>flase</visible>	
+</image>
+</view>
+</theme>
+

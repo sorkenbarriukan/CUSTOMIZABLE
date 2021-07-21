@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="marcovideo" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+<zIndex>30</zIndex>
+</image>  
+
+<video name="backgroundvideo" extra="true">  
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.550</size>
+</video>
+
+<image name="backgroundsystem" extra="true">
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.550</size>
+<linearSmooth>true</linearSmooth>
+</image> 
+ 
+<image name="glassvideo" extra="true">
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+</image> 
+
+<image name="scanlinevideo" extra="true">
+<path>./art/sistemas/fondos/scanline.png</path>
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+</image>     
+</view>
+
+<view name="basic,detailed,grid,carousel,gamecarousel">
+<video name="md_video">           
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size> 
+</video>
+
+<image name="md_image">          
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+</image>
+
+<image name="backgroundsystem" extra="true">
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+<linearSmooth>true</linearSmooth>
+</image> 
+
+<image name="scanlinevideo" extra="true">
+<path>./art/sistemas/fondos/scanline.png</path>
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+</image> 
+
+<image name="glassvideo" extra="true">
+<pos>0.368 0.483</pos>
+<origin>0.5 0.5</origin>
+<size>0.6530 0.551</size>
+</image>   
+
+<text name="md_name">
+<visible>true</visible>	
+<pos>0.270 0.180</pos>
+</text>
+</view>
+</theme>

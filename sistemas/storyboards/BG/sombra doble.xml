@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="sombra" extra="true">
+<color>00000000</color>
+</image>  
+
+<image name="sombradoble" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./art/sistemas/fondos/sombra doble con carrusel.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>52</zIndex>
+</image>  
+</view>
+</theme>

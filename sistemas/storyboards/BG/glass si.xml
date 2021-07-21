@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="glassvideo" extra="true">
+<visible>true</visible>
+<path>./art/sistemas/fondos/glass.png</path>
+<linearSmooth>true</linearSmooth>
+</image>  
+</view>
+</theme>

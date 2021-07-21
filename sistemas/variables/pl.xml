@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>ZDJĘCIE W TLE</colorbgName>
+<sombraName>CIEŃ NA KRAWĘDZI TŁA</sombraName>
+<marcoName>RODZAJ RAMKI WIDEO</marcoName>
+<sizevidName>ROZMIAR KLATEK WIDEO</sizevidName>
+<glassName>EFEKT SZKŁA NA WIDEO</glassName>
+<scanlineName>SKANOWANIE PRZEZ WIDEO</scanlineName>
+<subset.animacion-imagen-de-fondo>ANIMACJA W OBRAZIE TLE</subset.animacion-imagen-de-fondo>
+<zIndexName>ZINDEKS ZNAKÓW</zIndexName>
+<size-personaje1Name>WIELKOŚĆ ZNAKU 1</size-personaje1Name>
+<size-personaje2Name>WIELKOŚĆ ZNAKU 2</size-personaje2Name>
+<size-personaje3Name>WIELKOŚĆ ZNAKU 3</size-personaje3Name>
+<opciones-de-videoName>OPCJE TŁA WIDEO (tylko system)</opciones-de-videoName>
+<mostrar-boxarteName>POKAŻ OKŁADKI</mostrar-boxarteName>
+<mostrar-consolaName>POKAŻ KONSOLĘ</mostrar-consolaName>
+<animacion-de-personajes-1Name>ANIMACJA POSTACI 1</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>ANIMACJA POSTACI 2</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>ANIMACJA POSTACI 3</animacion-de-personajes-3Name>
+<trancicionName>ZMIANA WIDEO</trancicionName>
+
+<systemViewName>ZMIEŃ WIDOK W SYSTEMIE</systemViewName>
+<banderasName>POKAŻ JĘZYK FLAGI</banderasName>
+<mostra-personajesName>POKAŻ CHARAKTER</mostra-personajesName>
+<size-personajesName>POZYCJA ZNAKU</size-personajesName>
+<mostrar-boxartName>POKAŻ BOXART obecny tylko w systemie</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>ZASTOSUJ EFEKT DO CHARAKTERU W SYSTEMIE</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>ZASTOSUJ EFEKT DO POSTACI NA LIŚCIE GRY</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>ZMIEŃ LOGO W KARUZELI</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>ZMIEŃ LOGO NA LIŚCIE GRY</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>AKTYWUJ ANIMACJĘ W LOGO AKTYWNEJ KARUZELI</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>OPCJE TŁA</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>ZASTOSUJ DŹWIĘK NA KARUZELĘ</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>ZASTOSUJ DŹWIĘK NA LIŚCIE GRY</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>SYSTEMOWY EFEKT WIDEO</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>WPŁYW NA WIDEO W LISTIE GIER</subset.opciones-de-video-gamelist>
+<menuName>ZMIEŃ STYL MENU</menuName>
+<storylogocarruselsistemaName>AKTYWUJ RUCH W LOGO AKTYWNEJ KARUZELI</storylogocarruselsistemaName>
+<infoName>ZMIEŃ TYLKO JĘZYK W (Widok klasyczny)</infoName>
+<MarqueeStyleName>ZMIEŃ LOGO NA LIŚCIE ODTWARZANIA (Markiza)</MarqueeStyleName>
+<systemViewExInfos>POKAŻ (InfoEx) W SYSTEMIE</systemViewExInfos> 
+<subset.Logosoncarousel>ZMIANA LOGO KARUZELI W SYSTEMIE</subset.Logosoncarousel>
+<subset.shader>SHADERS - (PRZEDE WSZYSTKIM)</subset.shader>
+<subset.colorset>ZMIANA KOLORU SYSTEMU (menu)</subset.colorset>
+</variables>
+</theme>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system">
+
+<video name="backgroundvideo" extra="true">
+<path>{random}</path>  
+</video>
+
+<image name="backgroundsystem" extra="true">
+<visible>true</visible>
+</image>
+
+</view>
+</theme>

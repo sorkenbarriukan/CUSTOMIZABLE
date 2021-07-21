@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<variables>
+
+<colorbgName>배경 이미지</colorbgName>
+<sombraName>배경 가장자리의 그림자</sombraName>
+<marcoName>비디오 프레임의 유형</marcoName>
+<sizevidName>비디오 프레임 크기</sizevidName>
+<glassName>비디오의 유리 효과</glassName>
+<scanlineName>비디오 위의 스캔라인</scanlineName>
+<subset.animacion-imagen-de-fondo>배경 이미지의 애니메이션</subset.animacion-imagen-de-fondo>
+<zIndexName>캐릭터의 ZINDEX</zIndexName>
+<size-personaje1Name>문자 1의 크기</size-personaje1Name>
+<size-personaje2Name>문자 2의 크기</size-personaje2Name>
+<size-personaje3Name>문자 크기 3</size-personaje3Name>
+<opciones-de-videoName>비디오 배경 옵션(시스템만 해당)</opciones-de-videoName>
+<mostrar-boxarteName>표지 표시</mostrar-boxarteName>
+<mostrar-consolaName>콘솔 표시</mostrar-consolaName>
+<animacion-de-personajes-1Name>캐릭터 1 애니메이션</animacion-de-personajes-1Name>
+<animacion-de-personajes-2Name>캐릭터 2 애니메이션</animacion-de-personajes-2Name>
+<animacion-de-personajes-3Name>캐릭터 3 애니메이션</animacion-de-personajes-3Name>
+<trancicionName>비디오 전환</trancicionName>
+
+<systemViewName>시스템에서보기 변경</systemViewName>
+<banderasName>플래그 언어 표시</banderasName>
+<mostra-personajesName>캐릭터보기</mostra-personajesName>
+<size-personajesName>캐릭터 위치</size-personajesName>
+<mostrar-boxartName>시스템에만있는 SHOW BOXART</mostrar-boxartName>
+<opciones-de-personajes-en-sistemaName>시스템의 캐릭터에 효과 적용</opciones-de-personajes-en-sistemaName>
+<opciones-de-personajes-en-gamelistName>게임 목록의 캐릭터에 효과 적용</opciones-de-personajes-en-gamelistName>
+<cambiar-logos-en-carruselName>CAROUSEL에서 로고 변경</cambiar-logos-en-carruselName>
+<cambiar-logos-en-gamelistName>게임 목록에서 로고 변경</cambiar-logos-en-gamelistName>
+<activar-movimiento-en-logo-de-carruselName>액티브 캐 러셀 로고에서 애니메이션 활성화</activar-movimiento-en-logo-de-carruselName>
+<subset.opciones-imagen-de-fondo>배경 이미지 옵션</subset.opciones-imagen-de-fondo>
+<subset.aplicar-sonido-en-carrusel>CAROUSEL에 소리 적용</subset.aplicar-sonido-en-carrusel>
+<subset.aplicar-sonido-en-gamelist>게임 목록에 사운드 적용</subset.aplicar-sonido-en-gamelist>
+<subset.opciones-de-video-sistema>시스템 비디오 효과</subset.opciones-de-video-sistema>
+<subset.opciones-de-video-gamelist>게임 목록의 비디오에 미치는 영향</subset.opciones-de-video-gamelist>
+<menuName>메뉴 스타일 변경</menuName>
+<storylogocarruselsistemaName>ACTIVE CAROUSEL 로고에서 움직임 활성화</storylogocarruselsistemaName>
+<infoName>(클래식보기)에서만 언어 변경</infoName>
+<MarqueeStyleName>재생 목록에서 로고 변경 (마키)</MarqueeStyleName>
+<systemViewExInfos>시스템에서 (InfoEx) 표시</systemViewExInfos> 
+<subset.Logosoncarousel>시스템에서 CAROUSEL 로고 변경</subset.Logosoncarousel>
+<subset.shader>셰이더-(모두 위에)</subset.shader>
+<subset.colorset>시스템 색상 변경 (메뉴)</subset.colorset>
+</variables>
+</theme>

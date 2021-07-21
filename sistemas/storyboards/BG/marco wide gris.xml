@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+<view name="system, basic, detailed, grid, carousel, gamecarousel">
+<image name="marcovideo" extra="true">
+<visible>true</visible>
+<tile>false</tile>
+<path>./art/sistemas/fondos/marco wide gris.png</path>
+<linearSmooth>true</linearSmooth>
+<zIndex>30</zIndex>
+</image>  
+
+<video name="backgroundvideo" extra="true">  
+</video>
+
+<image name="backgroundsystem" extra="true">
+</image> 
+ 
+<image name="glassvideo" extra="true">
+</image> 
+
+<image name="scanlinevideo" extra="true">
+</image>     
+</view>
+</theme>
